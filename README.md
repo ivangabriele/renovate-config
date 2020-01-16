@@ -4,7 +4,7 @@ My custom Renovate configuration.
 
 ## Usage
 
-Add `.github/renovate.json` to your project .
+Add `.github/renovate.json` to your project:
 
 ```json
 {
