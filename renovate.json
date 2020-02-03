@@ -9,7 +9,6 @@
     "group:allNonMajor",
     "schedule:earlyMondays"
   ],
-  "masterIssueAutoclose": true,
   "node": {
     "supportPolicy": [
       "active"
