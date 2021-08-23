@@ -3,6 +3,7 @@
     "config:base",
     ":automergeAll",
     ":masterIssue",
+    ":preserveSemverRanges",
     ":semanticCommits",
     ":timezone(Europe/Paris)",
     "docker:enableMajor",
@@ -10,13 +11,7 @@
     "schedule:earlyMondays"
   ],
   "node": {
-    "supportPolicy": [
-      "active"
-    ]
+    "supportPolicy": ["active"]
   },
-  "postUpdateOptions": [
-    "npmDedupe",
-    "yarnDedupeHighest"
-  ],
-  "rangeStrategy": "pin"
+  "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"]
 }
