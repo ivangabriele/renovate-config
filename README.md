@@ -1,6 +1,6 @@
-# Renovate Config
+# My Renovate Configuration
 
-My custom Renovate configuration.
+My most commonly used Renovate configuration.
 
 ## Usage
 
