@@ -9,5 +9,11 @@
     "group:allNonMajor",
     "schedule:earlyMondays"
   ],
-  "semanticCommitType": "build"
+  "semanticCommitType": "build",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "semanticCommitScope": "dev-deps"
+    }
+  ]
 }
