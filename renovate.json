@@ -2,7 +2,6 @@
   "extends": [
     "config:base",
     ":automergeAll",
-    ":masterIssue",
     ":preserveSemverRanges",
     ":semanticCommits",
     ":timezone(Europe/Paris)",
@@ -10,8 +9,5 @@
     "group:allNonMajor",
     "schedule:earlyMondays"
   ],
-  "node": {
-    "supportPolicy": ["active"]
-  },
-  "postUpdateOptions": ["npmDedupe", "yarnDedupeHighest"]
+  "semanticCommitType": "build"
 }
