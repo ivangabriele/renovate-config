@@ -181,12 +181,10 @@
     "@commitlint/cli" "14.1.0"
     "@commitlint/config-conventional" "14.1.0"
 
-"@ivangabriele/prettier-config@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-2.0.2.tgz#0d2c87f122fa4f3b898bbe776f377b66042b1220"
-  integrity sha512-Qco2U1F8p3OYrrhV+pTIEOwZdqix0+NEk640nupJrd0Uw6pgLHBsH7KkgPaohQOS6segEFXWOmPP1qxyP/FqeA==
-  dependencies:
-    prettier "2.4.1"
+"@ivangabriele/prettier-config@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-3.0.2.tgz#27cc7be7b9787248936cc2744ab0750f033320a6"
+  integrity sha512-IlkhHdhDvj6me23zhB4xjXUdFLJGGeE1Od3gof04BzgLL+439bMHFQA1ZuA//+F+ENtDxNvY9dg14aOLzaAU1Q==
 
 "@types/minimist@^1.2.0":
   version "1.2.2"
@@ -847,10 +845,10 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-prettier@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+prettier@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 q@^1.5.1:
   version "1.5.1"

@@ -9,8 +9,9 @@
   },
   "devDependencies": {
     "@ivangabriele/commitlint-config": "1.0.2",
-    "@ivangabriele/prettier-config": "2.0.2",
-    "husky": "7.0.4"
+    "@ivangabriele/prettier-config": "3.0.2",
+    "husky": "7.0.4",
+    "prettier": "2.5.1"
   },
   "prettier": "@ivangabriele/prettier-config"
 }
