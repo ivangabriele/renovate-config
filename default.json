@@ -2,17 +2,32 @@
   "extends": [
     "config:base",
     ":preserveSemverRanges",
-    ":semanticCommits",
     ":timezone(Europe/Paris)",
     "docker:enableMajor",
     "group:allNonMajor",
     "schedule:earlyMondays"
   ],
+  "semanticCommits": "enabled",
+  "semanticCommitScope": "deps",
   "semanticCommitType": "build",
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "semanticCommitScope": "dev-deps"
+      "semanticCommits": "enabled",
+      "semanticCommitScope": "dev-deps",
+      "semanticCommitType": "build"
+    },
+    {
+      "matchDepTypes": ["optionalDependencies"],
+      "semanticCommits": "enabled",
+      "semanticCommitScope": "optional-deps",
+      "semanticCommitType": "build"
+    },
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "semanticCommits": "enabled",
+      "semanticCommitScope": "peer-deps",
+      "semanticCommitType": "build"
     }
   ]
 }
