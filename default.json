@@ -5,7 +5,7 @@
     ":timezone(Europe/Paris)",
     "docker:enableMajor",
     "group:allNonMajor",
-    "schedule:earlyMondays"
+    "schedule:monthly"
   ],
   "semanticCommits": "enabled",
   "semanticCommitScope": "deps",
