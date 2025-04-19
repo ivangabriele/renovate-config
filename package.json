@@ -8,8 +8,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.3.0",
-    "@commitlint/config-conventional": "16.2.4",
+    "@commitlint/cli": "19.8.0",
+    "@commitlint/config-conventional": "19.8.0",
     "@ivangabriele/commitlint-config": "1.1.0",
     "@ivangabriele/prettier-config": "3.2.0",
     "husky": "7.0.4",
