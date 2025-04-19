@@ -192,10 +192,10 @@
   dependencies:
     "@commitlint/config-conventional" "18.6.0"
 
-"@ivangabriele/prettier-config@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-3.2.0.tgz#be2cdf1eabbbbcf66fe85bc04beb72f63cd9162a"
-  integrity sha512-lw+oSM+Zat3EdwXpLgqZV9883eBOpA7GVvrVtjAkRxW7lWcUEIf7e6DIXGql3eKb4kvC3iG1zVNHGxohXPVPhA==
+"@ivangabriele/prettier-config@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-5.0.1.tgz#204a58ba1cbdf0a2f06e0f9b8163cb3ed21312e4"
+  integrity sha512-+Ucn9bS+BSkvjiyPNFVKLR0KjEf8H4PglZwReZ2lMXtqbfVtq/gaGuuPg56y2JU9J1laXCZ9fN/O0oIOGBEo6g==
 
 "@types/conventional-commits-parser@^5.0.0":
   version "5.0.1"
